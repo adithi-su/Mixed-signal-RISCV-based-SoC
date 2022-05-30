@@ -3,7 +3,7 @@
 ## Block design of RVMYTH + PLL
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/block%20design.png"  width=500px/>
 RVMYTH - RISC V Core, test program is loaded into instruction memory. <br>
-avsdpll_1v8: PLL designed by <a href="https://www.vlsisystemdesign.com/">VSD</a> works as a multiplier (output_freq = x.input_freq). Depemds on the drive strength of the buffers used in designing the PLL.<br>
+avsdpll_1v8: PLL designed by <a href="https://www.vlsisystemdesign.com/">VSD</a> works as a multiplier (output_freq = x.input_freq). Depends on the drive strength of the buffers used in designing the PLL.<br>
 Generated output frequency is connected to the CLK pin of the processor. The functionality of the setup is tested using RTL and FPGA flows.
 
 ## Tools used 
