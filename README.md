@@ -45,9 +45,10 @@ Note: Here, PLL from Xilinx Vivado is used. It converts input frequency of 33 MH
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/fpga_analog.png" width=700px>
 
 ### FPGA Implementation and timing analysis 
+
 <p>
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/tH_violation.png" width=700px>
-<br> Faced hold violation in false path 
+<br> Observation: Faced hold violation in false path <br> <br>
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/hold_vio_path.png" width=500px>
 <br> False path has been indicated with red. Add false path constraint in vivado to ignore them.
 </p>  
