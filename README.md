@@ -28,6 +28,9 @@ gtkwave rvmyth_pll.vcd
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave.png" width=500px>
 out[7:0] runs from 0-255, 255-0 and so on.
 
+<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave%20analog.png" width=500px>
+out(analog format) has peak value of 255. Triangular wave runs from 0-255, 255-0 and so on.
+
 ## FPGA flow
 
 
