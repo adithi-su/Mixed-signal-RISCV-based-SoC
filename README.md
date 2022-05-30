@@ -1,4 +1,5 @@
 # Mixed-signal-RISCV-based-SoC
+Aim: To integrate rvmyth with a PLL (Phase Locked Loop) as a clock multiplier using open-source EDA tools. The whole project focuses on Mixed Signal Physical Design.
 
 ## Block design of RVMYTH + PLL
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/block%20design.png"  width=500px/>
@@ -25,6 +26,7 @@ iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v
 gtkwave rvmyth_pll.vcd
 ```
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave.png" width=500px>
+out[7:0] runs from 0-255, 255-0 and so on.
 
 ## FPGA flow
 
@@ -32,4 +34,6 @@ gtkwave rvmyth_pll.vcd
 
 
 
-<!-- refer: https://github.com/shivanishah269/vsdfpga -->  
+<!-- refer: https://github.com/shivanishah269/vsdfpga>  
+<!-- RISCV Core - https://github.com/shivanishah269/risc-v-core>
+<!-- PLL - https://github.com/vsdip/rvmyth_avsdpll_interface>
