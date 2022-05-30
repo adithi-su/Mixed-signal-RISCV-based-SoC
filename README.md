@@ -12,6 +12,8 @@ pip3 install sandpiper-saas
 sandpiper-saas -i design.tlv -o design.sv --iArgs
 ```
 ## Steps for RTL Simulation of RVMYTH+PLL using iverilog
+RVMYTH - RISC V Core, test program is loaded into instruction memory. <br>
+avsdpll_1v8: PLL designed by <a href="https://www.vlsisystemdesign.com/">VSD</a>
 ```
 iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v
 ./a.out
