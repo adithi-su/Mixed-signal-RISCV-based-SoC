@@ -36,7 +36,7 @@ gtkwave rvmyth_pll.vcd
 </p>
 
 ## FPGA flow
-
+<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/fpga_block%20design.png" width=500px>
 Note: Here, PLL from Xilinx Vivado is used. 
 
 
