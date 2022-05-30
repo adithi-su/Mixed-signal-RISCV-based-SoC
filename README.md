@@ -37,7 +37,7 @@ gtkwave rvmyth_pll.vcd
 
 ## FPGA flow
 <img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/fpga_block%20design.png" width=500px>
-Note: Here, PLL from Xilinx Vivado is used. 
+Note: Here, PLL from Xilinx Vivado is used. It converts input frequency of 33 MHz to 100MHz. <br> FPGA board used - Zedboard Zynq-7000 ARM/FPGA SoC Development Board
 
 
 
