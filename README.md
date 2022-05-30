@@ -25,14 +25,19 @@ iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v
 ./a.out
 gtkwave rvmyth_pll.vcd
 ```
-<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave.png" width=500px>
-out[7:0] runs from 0-255, 255-0 and so on.
+<p>
+<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave.png" width=700px>
+<br>out[7:0]runs from 0-255, 255-0 and so on.
+</p>
 
-<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave%20analog.png" width=500px>
-out(analog format) has peak value of 255. Triangular wave runs from 0-255, 255-0 and so on.
+<p>
+<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/gtkwave%20analog.png" width=700px>
+<br>out(analog format) has peak value of 255. 
+</p>
 
 ## FPGA flow
 
+Note: Here, PLL from Xilinx Vivado is used. 
 
 
 
