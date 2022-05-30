@@ -58,6 +58,10 @@ Modify constraints.xdc -
 set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] -to [get_pins uut3/inst/ila_core_inst/*/D]
 set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] -to [get_pins uut3/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[2].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/*/D]
 ``` 
+### Schematic 
+
+<img src="https://github.com/adithi-su/Mixed-signal-RISCV-based-SoC/blob/master/images/schematic.png" width=700px>
+
   
 <!-- refer: https://github.com/shivanishah269/vsdfpga>  
 <!-- RISCV Core - https://github.com/shivanishah269/risc-v-core>
